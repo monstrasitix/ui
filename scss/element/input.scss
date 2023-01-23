@@ -1,0 +1,6 @@
+@use '../context';
+
+
+.input {
+    @include context.input-base;
+}

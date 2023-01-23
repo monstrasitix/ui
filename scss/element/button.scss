@@ -1,0 +1,18 @@
+@use '../context';
+
+
+.button {
+    @include context.button-base;
+
+    &.-primary {
+        @include context.button-primary;
+    }
+
+    &.-secondary {
+        @include context.button-secondary;
+    }
+
+    &:disabled {
+        @include context.button-disabled;
+    }
+}

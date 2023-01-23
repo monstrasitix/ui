@@ -1,0 +1,81 @@
+@use '../box';
+@use '../color';
+@use '../font';
+
+
+@mixin base {
+    font: {
+        size: font.$control-size;
+        family: font.$control-family;
+    }
+
+    border: {
+        radius: 0.25rem;
+        style: solid;
+        width: 0;
+    }
+
+    transition: {
+        timing-function: ease;
+        duration: 0.1s;
+        property: (
+            box-shdow,
+            background-color,
+        );
+    }
+
+    padding: 0.7em 1.3em;
+
+    line-height: box.$height;
+    text-decoration: none;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+
+    &:focus {
+        box-shadow: (
+            0 0 0 1px color.$white,
+            0 0 2px 1px color.$primary
+        );
+    }
+}
+
+
+@mixin primary {
+    color: color.$text-on-dark;
+    background-color: color.$primary;
+
+    &:hover {
+        background-color: color.$primary-hover;
+    }
+
+    &:active {
+        background-color: color.$primary-active;
+    }
+}
+
+
+@mixin secondary {
+    color: color.$primary;
+    background-color: color.$none;
+
+    &:hover {
+        background-color: rgba(color.$primary, 0.2);
+    }
+
+    &:active {
+        background-color: rgba(color.$primary, 0.4);
+    }
+}
+
+
+@mixin disabled {
+    cursor: not-allowed;
+
+    &,
+    &:hover,
+    &:active {
+        color: color.$text-on-disabled;
+        background-color: color.$disabled;
+    }
+}

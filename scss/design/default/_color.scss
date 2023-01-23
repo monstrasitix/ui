@@ -1,0 +1,21 @@
+// General
+$white: white !default;
+$black: black !default;
+$none: transparent !default;
+
+// Font
+$text-on-dark: #fff !default;
+$text-on-light: #333 !default;
+$text-on-disabled: gray !default;
+
+// States
+$disabled: lightgray !default;
+
+// Thematic
+$primary: dodgerblue !default;
+$primary-hover: darken($primary, 5) !default;
+$primary-active: darken($primary, 10) !default;
+
+$error: crimson !default;
+$error-hover: darken($error, 5) !default;
+$error-active: darken($error, 10) !default;

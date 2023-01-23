@@ -1,0 +1,9 @@
+// Printing
+$print: 'only print';
+
+// Media devices
+$phone: 'only screen and @media (min-width: 576px)';
+$tablet: 'only screen and @media (min-width: 768px)';
+$desktop-small: 'only screen and @media (min-width: 992px)';
+$desktop-medium: 'only screen and @media (min-width: 1200px)';
+$desktop-large: 'only screen and @media (min-width: 1400px)';
