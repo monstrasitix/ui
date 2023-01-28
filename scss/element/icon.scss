@@ -1,0 +1,6 @@
+@use '../context';
+
+
+.icon {
+    @include context.icon-base;
+}
