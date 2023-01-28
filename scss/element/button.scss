@@ -1,6 +1,21 @@
 @use '../context';
 
 
+/*---
+title: Button
+section: Element
+---
+
+Button styles can be applied to any element. Typically you'll want to use
+either a `<button>` or an `<a>` element:
+
+```example:html
+<button class="button">Plain</button>
+<button class="button -primary">Primary</button>
+<button class="button -secondary">Secondary</button>
+<button disabled class="button -primary">Disabled</button>
+```
+*/
 .button {
     @include context.button-base;
 
