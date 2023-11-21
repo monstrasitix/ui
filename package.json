@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "sass ./scss:./css --style=compressed --no-source-map",
-    "watch": "sass ./scss:./css --style=compressed --no-source-map --watch"
+    "start": "sass --load-path=./load ./scss:./css --style=compressed --no-source-map"
   },
   "keywords": [],
   "author": "",
