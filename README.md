@@ -13,10 +13,10 @@ Set of designs which allow to build up themes quickly. Idea:
 @use './designs/material' with (
     $color-primary: red,
     $color-primary: var(--red-color),
-    $color-primary: map-get($colors, 'red');
+    $color-primary: map-get($colors, 'red'),
 
-    $media-mobile: 'only screen and (min-width: 300px)';
-    $media-tablet: 'only screen and (min-width: 900px)';
+    $media-mobile: 'only screen and (min-width: 300px)',
+    $media-tablet: 'only screen and (min-width: 900px)',
 );
 
 // Then elements can be imported on their own

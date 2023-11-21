@@ -1,0 +1,6 @@
+@use 'context';
+
+
+.image {
+    @include context.image-base;
+}
