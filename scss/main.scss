@@ -3,3 +3,10 @@
 @use './element/button.scss';
 @use './element/image.scss';
 @use './element/icon.scss';
+
+
+.preview {
+	padding: 2em;
+	border-radius: 0.25rem;
+	background-color: #ededed;
+}

@@ -1,6 +1,7 @@
-@use '../box';
-@use '../color';
-@use '../font';
+@use '../abstract/box';
+@use '../abstract/color';
+@use '../abstract/font';
+@use '../abstract/spacing';
 
 
 @mixin base {
@@ -19,12 +20,12 @@
         timing-function: ease;
         duration: 0.1s;
         property: (
-            box-shdow,
+            box-shadow,
             background-color,
         );
     }
 
-    padding: 0.7em 1.3em;
+    padding: spacing.$control-padding;
 
     line-height: box.$height;
     text-decoration: none;
