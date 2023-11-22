@@ -9,7 +9,7 @@ Set of designs which allow to build up themes quickly. Idea:
 @use './designs/flatter';
 
 
-// Each design has unique customisation options
+// Each design has unique customization options
 @use './designs/material' with (
     $color-primary: red,
     $color-primary: var(--red-color),

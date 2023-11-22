@@ -1,17 +1,6 @@
 @use 'context';
 
 
-/*---
-title: Icon
-section: Element
----
-
-Icon can be applied to `<i>` element.
-
-```example:html
-<i class="icon -close"></i>
-```
-*/
 .icon {
     @include context.icon-base;
 
