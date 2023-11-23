@@ -1,0 +1,5 @@
+@use "context";
+
+.anchor {
+    @include context.anchor-base;
+}

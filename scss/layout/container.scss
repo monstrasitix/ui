@@ -1,0 +1,13 @@
+@use "context";
+
+.container {
+    @include context.container-base;
+
+    &.-page {
+        @include context.container-page;
+    }
+
+    &.-modal {
+        @include context.container-modal;
+    }
+}

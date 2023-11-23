@@ -4,13 +4,13 @@ Set of designs which allow to build up themes quickly. Idea:
 
 ```SCSS
 // Variation of designs
-@use './designs/material';
-@use './designs/flat';
-@use './designs/flatter';
+@use "./designs/material";
+@use "./designs/flat";
+@use "./designs/flatter";
 
 
 // Each design has unique customization options
-@use './designs/material' with (
+@use "./designs/material" with (
     $color-primary: red,
     $color-primary: var(--red-color),
     $color-primary: map-get($colors, 'red'),
@@ -20,10 +20,10 @@ Set of designs which allow to build up themes quickly. Idea:
 );
 
 // Then elements can be imported on their own
-@use './element/button';
-@use './element/input';
-@use './element/image';
+@use "./element/button";
+@use "./element/input";
+@use "./element/image";
 
-@use './layout/grid';
-@use './layout/container';
+@use "./layout/grid";
+@use "./layout/container";
 ```

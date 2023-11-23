@@ -1,0 +1,13 @@
+@mixin base {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@mixin page {
+    max-width: 1099px;
+}
+
+@mixin modal {
+    max-width: 900px;
+}

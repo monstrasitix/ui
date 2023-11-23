@@ -6,9 +6,14 @@
 @forward './abstract/layer' as layer-*;
 @forward './abstract/spacing' as spacing-*;
 
-
 // Elements
 @forward './element/button' as button-*;
 @forward './element/input' as input-*;
+@forward './element/anchor' as anchor-*;
 @forward './element/image' as image-*;
 @forward './element/icon' as icon-*;
+
+// Layouts
+@forward './layout/grid' as grid-*;
+@forward './layout/container' as container-*;
+

@@ -1,0 +1,10 @@
+@use "context";
+
+.grid {
+    @include context.grid-base;
+
+    &.-cols-1 { @include context.grid-columns-1; }
+    &.-cols-2 { @include context.grid-columns-2; }
+    &.-cols-3 { @include context.grid-columns-3; }
+    &.-cols-4 { @include context.grid-columns-4; }
+}

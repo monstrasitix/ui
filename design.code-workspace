@@ -1,6 +1,8 @@
 {
     "folders": [
         { "name": "Root", "path": "./" },
+        { "name": "Elements", "path": "./scss/element" },
+        { "name": "Layouts", "path": "./scss/layout" },
         { "name": "(Design) Default", "path": "./scss/design/default" }
     ],
     "settings": {
