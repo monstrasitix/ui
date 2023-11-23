@@ -1,19 +1,20 @@
 // Abstracts
-@forward './abstract/box' as box-*;
-@forward './abstract/font' as font-*;
-@forward './abstract/media' as media-*;
-@forward './abstract/color' as color-*;
-@forward './abstract/layer' as layer-*;
-@forward './abstract/spacing' as spacing-*;
+@forward "./abstract/box" as box-*;
+@forward "./abstract/font" as font-*;
+@forward "./abstract/media" as media-*;
+@forward "./abstract/color" as color-*;
+@forward "./abstract/layer" as layer-*;
+@forward "./abstract/spacing" as spacing-*;
 
 // Elements
-@forward './element/button' as button-*;
-@forward './element/input' as input-*;
-@forward './element/anchor' as anchor-*;
-@forward './element/image' as image-*;
-@forward './element/icon' as icon-*;
+@forward "./element/button" as button-*;
+@forward "./element/heading" as heading-*;
+@forward "./element/input" as input-*;
+@forward "./element/anchor" as anchor-*;
+@forward "./element/image" as image-*;
+@forward "./element/icon" as icon-*;
 
 // Layouts
-@forward './layout/grid' as grid-*;
-@forward './layout/container' as container-*;
+@forward "./layout/grid" as grid-*;
+@forward "./layout/container" as container-*;
 
