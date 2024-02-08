@@ -1,3 +1,13 @@
 @use "context";
 
-.heading {}
+.heading {
+    @include context.heading-base;
+
+    &.-title {
+        @include context.heading-title;
+    }
+
+    &.-sub-title {
+        @include context.heading-sub-title;
+    }
+}

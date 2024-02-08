@@ -1,1 +1,9 @@
-@mixin base {}
+@use "../abstract//font";
+
+@mixin base {
+    font-family: font.$base-family;
+}
+
+@mixin title {}
+
+@mixin sub-title {}
